@@ -1,0 +1,84 @@
+.custom-shape-divider-top-1673963219 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .custom-shape-divider-top-1673963219 svg {
+    position: absolute;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 1000px;
+  }
+  
+  .custom-shape-divider-top-1673963219 .shape-fill {
+    fill: rgba(255, 90, 96, 0.8745098039);
+  }
+  
+  body {
+    background: #bdbdbdc4;
+    font-family: "Fjalla One", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #212121;
+  }
+  
+  .wrapper {
+    position: relative;
+    clear: both;
+    margin: 0 auto 75px auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .content {
+    padding-bottom: 20px;
+  }
+  
+  .content .cardarticle.first {
+    margin-top: -80px;
+  }
+  
+  .cardarticle {
+    position: relative;
+    background: #fff;
+    padding: 50px;
+    width: 80%;
+    margin: 20px auto 0 auto;
+    box-shadow: 0 2px 4px rgba(100, 100, 100, 0.1);
+  }
+  
+  .cardarticle h2 {
+    font-size: 21px;
+    font-weight: 500;
+  }
+  
+  .cardarticle h2 a {
+    color: #141313;
+    text-decoration: none;
+  }
+  
+  .cardarticle .date {
+    color: #9e9e9e;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .cardarticle .text {
+    color: #212121;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .cardarticle .text {
+    color: #212121;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  
+  .logo {
+    font-size: 100px;
+  }/*# sourceMappingURL=style.css.map */
