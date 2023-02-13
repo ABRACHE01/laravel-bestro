@@ -18,8 +18,14 @@
   }
   
   body {
-    background: #bdbdbdc4;
-    font-family: "Fjalla One", sans-serif;
+    background: #e5e5e5c4;
+    background-image: url('/public/staticpictures/pexels-wender-junior-souza-vieira-14267604.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+   
+    background-position: center;
+    font-family: 'Oswald' ;
     -webkit-font-smoothing: antialiased;
     color: #212121;
   }
@@ -82,3 +88,5 @@
   .logo {
     font-size: 100px;
   }/*# sourceMappingURL=style.css.map */
+
+ 

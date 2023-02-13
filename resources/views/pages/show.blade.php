@@ -10,9 +10,12 @@
 
         <div class="card-body">
         <h5 class="card-title">Name : {{ $plate->name }}</h5>
-        <p class="card-text">price : {{ $plate->price }}</p>
-        <p class="card-text">coption : {{ $plate->coption }}</p>
-
+        <p class="date bold text-info">Created : {{$plate->created_at->diffForhumans()}} </p>
+        <p class="date bold text-success">updated: {{$plate->updated_at->diffForhumans()}} </p>
+        <p class="card-text">coption : {{ $plate->coption}}</p>
+        <p class="card-text">admin : {{ $plate->user->name}}</p>
+        <h1 class="card-title ">price : {{ $plate->price }}DH</h1>
+        <img class="rounded center" src="{{ asset('images/' . $plate->image) }}" height="100%" width="100%">
   </div>
   </div>
  </div>
